@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		59B9F7321F98400700A0A9E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B9F7311F98400700A0A9E0 /* AppDelegate.swift */; };
-		59B9F7341F98400700A0A9E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B9F7331F98400700A0A9E0 /* ViewController.swift */; };
 		59B9F7371F98400700A0A9E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59B9F7351F98400700A0A9E0 /* Main.storyboard */; };
 		59B9F7391F98400700A0A9E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59B9F7381F98400700A0A9E0 /* Assets.xcassets */; };
 		59B9F73C1F98400700A0A9E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59B9F73A1F98400700A0A9E0 /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		59B9F72E1F98400700A0A9E0 /* Rabbit Live.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rabbit Live.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59B9F7311F98400700A0A9E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		59B9F7331F98400700A0A9E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		59B9F7361F98400700A0A9E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		59B9F7381F98400700A0A9E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59B9F73B1F98400700A0A9E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +33,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5907B5771F986F9500A67883 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5907B57B1F986F9500A67883 /* Main */,
+				5907B57F1F98700200A67883 /* Home */,
+				5907B57A1F986F9500A67883 /* Live */,
+				5907B5781F986F9500A67883 /* Follow */,
+				5907B57C1F986F9500A67883 /* Profile */,
+				5907B57D1F986F9500A67883 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5907B5781F986F9500A67883 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		5907B57A1F986F9500A67883 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		5907B57B1F986F9500A67883 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5907B57C1F986F9500A67883 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		5907B57D1F986F9500A67883 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		5907B57F1F98700200A67883 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Home;
+			path = "Rabbit Live/Classes/Home";
+			sourceTree = SOURCE_ROOT;
+		};
 		59B9F7251F98400700A0A9E0 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +108,8 @@
 		59B9F7301F98400700A0A9E0 /* Rabbit Live */ = {
 			isa = PBXGroup;
 			children = (
+				5907B5771F986F9500A67883 /* Classes */,
 				59B9F7311F98400700A0A9E0 /* AppDelegate.swift */,
-				59B9F7331F98400700A0A9E0 /* ViewController.swift */,
 				59B9F7351F98400700A0A9E0 /* Main.storyboard */,
 				59B9F7381F98400700A0A9E0 /* Assets.xcassets */,
 				59B9F73A1F98400700A0A9E0 /* LaunchScreen.storyboard */,
@@ -136,7 +190,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59B9F7341F98400700A0A9E0 /* ViewController.swift in Sources */,
 				59B9F7321F98400700A0A9E0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
